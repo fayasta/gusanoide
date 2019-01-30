@@ -1,0 +1,59 @@
+{
+  "name": "gusanoide",
+  "version": "0.0.1",
+  "description": "A Phaser 3 Project with Firebase and some other vitamins",
+  "main": "src/index.js",
+  "scripts": {
+    "init": "npm install",
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fayasta/gusanoide.git"
+  },
+  "contributors": [
+    {
+      "name": "Walter",
+      "email": "walter@email.com"
+    },
+    {
+      "name": "Gonzalo",
+      "email": "gonzalo@email.com"
+    },
+    {
+      "name": "Yayo",
+      "email": "yayo@email.com"
+    },
+    {
+      "name": "Rudy",
+      "email": "rudy@email.com"
+    },
+    {
+      "name": "Franck",
+      "email": "franck@email.com"
+    },
+    {
+      "name": "Fernando",
+      "email": "tiburoncin@email.com"
+    },
+    {
+      "name": "Jose Sal y Rosas",
+      "email": "infojasyrc@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/fayasta/gusanoide/issues"
+  },
+  "homepage": "https://github.com/fayasta/gusanoide#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.0",
+    "webpack": "^3.4.1",
+    "raw-loader": "^0.5.1"
+  },
+  "dependencies": {
+    "phaser": "^3.3.0"
+  }
+}
